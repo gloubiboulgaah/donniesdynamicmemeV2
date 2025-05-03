@@ -1,0 +1,56 @@
+#user {
+    position: absolute;
+    bottom: 0;
+}
+
+#textBox {
+    position: absolute;
+    bottom: 180px;
+    left: 22%;
+}
+
+.selector {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    padding: 20px;
+    width: 420px;
+}
+
+.selector img {
+    width: 100px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.selector img:hover {
+    transform: scale(1.5);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "boba-mono", monospace;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: red;
+}
+
+#door {
+    width: 40vw;
+}
+
+#son {
+    width: 50vw;
+}
+
+#nedim {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -10;
+}
+
+.hidden {
+    visibility: hidden;
+}
