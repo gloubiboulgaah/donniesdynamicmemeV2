@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Lain";
+    src: url("../fonts/lain.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Ledlight";
+    src: url("../fonts/LEDLIGHT.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Blue screen";
+    src: url("../fonts/Blue Screen Personal Use.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PERSONAL";
+    src: url("../fonts/PERSONAL.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: "boba-mono";
+    src: url("../fonts/boba-mono.otf") format("opentype");
+}
