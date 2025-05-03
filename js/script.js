@@ -37,6 +37,18 @@ document.addEventListener("DOMContentLoaded", function () {
         index++;
     });
 
+    noButton.addEventListener("click", function () {
+        response.classList.add("hidden");
+        textBox.classList.add("hidden");
+        setTimeout(() => {
+            const scream = new Audio("audio/scream.mp3");
+            scream.play();
+            donnie.src = "images/donnie.png";
+            donnie.style.animation = "none";
+            donnie.style.transform = "scale(6)";
+        }, 2000);
+    });
+
     donnieHand.addEventListener("click", function () {
         window.location.href = "/html/select.html";
     });
