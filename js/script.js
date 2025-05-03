@@ -50,6 +50,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     donnieHand.addEventListener("click", function () {
-        window.location.href = "/donniesdynamicmemeV2/html/select.html";
+        window.location.href = "html/select.html";
     });
 });
